@@ -698,3 +698,12 @@ footer.site a:hover{color:var(--header-text);}
 @media (max-width:600px){.photo-pair{grid-template-columns:1fr;}}
 .school-num{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);}
 .grid-cards.cards-4{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));}
+/* evidence page: scanned journal pages */
+.page-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:12px;margin-top:18px;}
+.page-grid a{display:block;border:1px solid var(--border);border-radius:8px;overflow:hidden;background:#fff;box-shadow:var(--shadow);text-decoration:none;transition:transform .15s;}
+.page-grid a:hover{transform:translateY(-2px);}
+.page-grid img{width:100%;aspect-ratio:3/4;object-fit:contain;background:#fff;display:block;}
+.page-grid span{display:block;font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:.04em;text-align:center;padding:6px 4px;color:#4E5D6B;border-top:1px solid #E3E9ED;}
+.doc-row{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;}
+.doc-row .panel-intro{margin-bottom:0;flex:1;min-width:240px;}
+.evidence-card .evidence-photo.is-sheet{object-fit:contain;background:#fff;}
