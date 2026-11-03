@@ -698,6 +698,7 @@ footer.site a:hover{color:var(--header-text);}
 @media (max-width:600px){.photo-pair{grid-template-columns:1fr;}}
 .school-num{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);}
 .grid-cards.cards-4{grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));}
+.grid-cards.cards-2{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));}
 /* evidence page: scanned journal pages */
 .page-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:12px;margin-top:18px;}
 .page-grid a{display:block;border:1px solid var(--border);border-radius:8px;overflow:hidden;background:#fff;box-shadow:var(--shadow);text-decoration:none;transition:transform .15s;}
